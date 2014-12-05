@@ -3,9 +3,9 @@ Unread
 
 Ruby gem to manage read/unread status of ActiveRecord objects - and it's fast.
 
-[![Build Status](https://travis-ci.org/ledermann/unread.png?branch=master)](https://travis-ci.org/ledermann/unread)
-[![Code Climate](https://codeclimate.com/github/ledermann/unread.png)](https://codeclimate.com/github/ledermann/unread)
-[![Coverage Status](https://coveralls.io/repos/ledermann/unread/badge.png)](https://coveralls.io/r/ledermann/unread)
+[![Build Status](https://travis-ci.org/mikeki/unread.png?branch=master)](https://travis-ci.org/mikeki/unread)
+[![Code Climate](https://codeclimate.com/github/mikeki/unread.png)](https://codeclimate.com/github/mikeki/unread)
+[![Coverage Status](https://coveralls.io/repos/mikeki/unread/badge.png)](https://coveralls.io/r/mikeki/unread)
 
 
 ## Features

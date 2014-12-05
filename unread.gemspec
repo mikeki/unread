@@ -5,8 +5,8 @@ require "unread/version"
 Gem::Specification.new do |s|
   s.name        = "unread"
   s.version     = Unread::VERSION
-  s.authors     = ["Georg Ledermann"]
-  s.email       = ["mail@georg-ledermann.de"]
+  s.authors     = ["Georg Ledermann", "Miguel Cervera"]
+  s.email       = ["mail@georg-ledermann.de", "miguel@cervera.me"]
   s.homepage    = ""
   s.summary     = %q{Manages read/unread status of ActiveRecord objects}
   s.description = %q{This gem creates a scope for unread objects and adds methods to mark objects as read }
