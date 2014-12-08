@@ -13,15 +13,15 @@ module Unread
       end
 
       def have_not_read(readable)
-        result = join_read_marks(readable)
-        result = result.where "read_marks.id IS NULL"
-        result
+        join_read_marks(readable).where("read_marks.id IS NULL")
       end
 
       def have_read(readable)
-        result = join_read_marks(readable)
-        result = result.where('read_marks.id IS NOT NULL')
-        result
+        join_read_marks(readable).where('read_marks.id IS NOT NULL')
+      end
+
+      def with_read_marks_for(readable)
+        join_read_marks(readable).select("#{table_name}.*, read_marks.id AS read_mark_id")
       end
     end
   end
