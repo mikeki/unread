@@ -35,7 +35,7 @@ https://github.com/mikeki/unread/releases
 Step 1: Add this to your Gemfile:
 
 ```ruby
-gem 'unread'
+gem 'unread', github: 'mikeki/unread'
 ```
 
 and run
