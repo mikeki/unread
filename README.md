@@ -27,7 +27,7 @@ Ruby gem to manage read/unread status of ActiveRecord objects - and it's fast.
 
 ## Changelog
 
-https://github.com/ledermann/unread/releases
+https://github.com/mikeki/unread/releases
 
 
 ## Installation
